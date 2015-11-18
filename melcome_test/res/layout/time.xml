@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="欢迎进入日期设置"
+></TextView>
+
+
+
+
+
+
+
+<DatePicker 
+android:id="@+id/DatePicker01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+></DatePicker>
+
+
+
+
+<DatePicker 
+android:id="@+id/DatePicker02" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+></DatePicker>
+
+
+<TextView 
+android:text="开始日" 
+android:id="@+id/TextView03" 
+android:layout_width="250px" 
+android:layout_height="25px"
+></TextView>
+
+
+<TextView 
+android:text="停止日" 
+android:id="@+id/TextView04" 
+android:layout_width="250px" 
+android:layout_height="25px"
+></TextView>
+
+<Button 
+android:text="save" 
+android:id="@+id/Button_save" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+></Button>
+
+
+<Button 
+android:text="cancle" 
+android:id="@+id/Button_cancle" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

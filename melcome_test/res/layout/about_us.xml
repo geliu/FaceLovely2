@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroll_view"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	 android:background="@drawable/bgwm"
+	>
+	<LinearLayout android:orientation="vertical"
+	    android:id="@+id/aboutus"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView 
+			android:id="@+id/help"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="22dip" android:textStyle="bold" android:text="帮助文档"
+			android:gravity="center" android:padding="3dip" />	
+			
+		<TextView 
+			android:id="@+id/help1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" android:textStyle="bold"
+			android:text="1.软件简介" />
+		<TextView android:id="@+id/help2"
+			android:layout_width="fill_parent"   
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text=" 本软件为用户提供上网流量监控和流量统计、以及进程的管理服务。\n" />
+		<TextView android:id="@+id/help3"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" android:textStyle="bold"
+			android:text="2.操作说明" />
+		<TextView android:id="@+id/help4"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="
+			向上划屏：页面向上滑动\n
+			向下划屏：页面向下滑动\n
+			点击：      选中相应的选项\n" />
+
+		<TextView android:id="@+id/help6"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" android:textStyle="bold"
+			android:text="3.联网监控说明" />
+		<TextView android:id="@+id/help6"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="
+			该页面可查看到运行中的联网或不联网进程列表，点击进程弹出的选项中可选择“结束进程”，或“添加至过滤列表”（使其不再显示在本页面）\n
+			在该页面中点击“MENU”弹出菜单项可查看过滤列表，或刷新联网列表。\n" />
+
+		<TextView android:id="@+id/help7"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" android:textStyle="bold"
+			android:text="4.参数设置说明" />
+		<TextView android:id="@+id/help8"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="
+			*开机启动：设置是否开机启动程序，建议开启。\n\n
+			*GPRS/3G最大月流量限制：建议设为每月的套餐流量，可避免使用时超过套餐的流量。\n\n
+			*流量套餐扣费日：设置为流量计算的起始日，一般为月结日。\n\n
+			*开启提醒功能：当流量使用超过套餐的流量时，会有相应的提醒，建议开启。\n\n
+			*清除所有统计数据：清除当前的所有记录，清楚后不能恢复，请慎用此功能。\n\n
+			*数据统计刷新频率：设置数据的刷新频率。刷新得过快，对系统性能会有一定影响，建议设为3秒.\n\n
+			*更改主题：可选择喜欢的主题样式.\n" />
+		<TextView 
+			android:id="@+id/help9"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="5.流量统计图" android:textSize="20dip"
+			android:textStyle="bold" />
+		<TextView android:id="@+id/help10"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="流量统计图中，横坐标0--6分别表示星期日到星期六，纵坐标表示当天的流量；蓝色线是2G/3G流量，绿色线是wifi流量。\n" />
+		<TextView android:id="@+id/help11"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="6.关于" android:textSize="20dip"
+			android:textStyle="bold" />
+		<TextView android:id="@+id/help12"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:paddingLeft="18dip"
+			android:text="
+			版本信息:V1.0\n
+			适用平台:Android2.2以上的系统\n
+			版本时间:2011-08-09\n
+			开发团队:(手机流量监控二组  )\n
+			\t\t\t张腾文，邓林，余鹏，金生\n
+			\t\t\t姚配艳，杨东，孙世华\n\n
+			    END\n\n\n\n\n\n\n\n\n\n\n\n\n" />
+	</LinearLayout>
+</ScrollView>
+
+
+
